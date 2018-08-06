@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo cp ImageDockerfile /opt/swamy
+sudo cp Dockerfile /opt/swamy
 sudo cd /opt/swamy
 pwd
 sudo docker build -t dar /opt/swamy
