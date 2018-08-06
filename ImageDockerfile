@@ -4,7 +4,7 @@ FROM  tomcat:8-jre8
 
 MAINTAINER "kusu@gmail.com"
 
-workdir /opt/extract
+workdir /opt/swamy
 
 COPY hello-9.war /usr/local/tomcat/webapps
 
