@@ -6,7 +6,7 @@ MAINTAINER "kusu@gmail.com"
 
 
 
-COPY hello-9.war /usr/local/tomcat/webapps
+COPY hello-9.war /usr/local/tomcat/webapps/
 
 
 EXPOSE 80:80
